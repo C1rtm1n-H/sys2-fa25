@@ -1,0 +1,195 @@
+<!DOCTYPE html><html><head>
+      <title>3240105155_lab6</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:////home/cartman/.vscode-server/extensions/shd101wyy.markdown-preview-enhanced-0.8.20/crossnote/dependencies/katex/katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="lab-6-实验报告">Lab 6 实验报告 </h1>
+<h2 id="1-实验目的">1 实验目的 </h2>
+<p>了解线程概念以及如何使用时钟中断来进行线程调度。<br>
+了解线程切换原理并实现线程切换。</p>
+<h2 id="2-试验过程">2 试验过程 </h2>
+<h4 id="问题-1执行make-run的输出与文档不一致">问题 1：执行<code>make run</code>的输出与文档不一致 </h4>
+<p><strong>解决方案</strong>：最开始不一致是出发了异常：</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token number">2025</span> ZJU Computer System II
+<span class="token punctuation">[</span>S<span class="token punctuation">]</span> Supervisor timer interrupt
+Unknown exception: scause <span class="token operator">=</span> <span class="token number">5</span>, sepc <span class="token operator">=</span> 8020052c
+</code></pre><p>这是因为我没有调用<code>task_init</code>函数（但是文档也没写啊qaq）。<br>
+修改后出现第二次不一致，输出变成：</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token punctuation">..</span>.mm_init done<span class="token operator">!</span>
+<span class="token punctuation">..</span>.task_init done<span class="token operator">!</span>
+<span class="token number">2025</span> ZJU Computer System II
+<span class="token punctuation">[</span>S<span class="token punctuation">]</span> Supervisor timer interrupt
+SET <span class="token punctuation">[</span>PID <span class="token operator">=</span> <span class="token number">1</span>, PRIORITY <span class="token operator">=</span> <span class="token number">5</span>, COUNTER <span class="token operator">=</span> <span class="token number">5</span><span class="token punctuation">]</span>
+SET <span class="token punctuation">[</span>PID <span class="token operator">=</span> <span class="token number">2</span>, PRIORITY <span class="token operator">=</span> <span class="token number">9</span>, COUNTER <span class="token operator">=</span> <span class="token number">9</span><span class="token punctuation">]</span>
+SET <span class="token punctuation">[</span>PID <span class="token operator">=</span> <span class="token number">3</span>, PRIORITY <span class="token operator">=</span> <span class="token number">3</span>, COUNTER <span class="token operator">=</span> <span class="token number">3</span><span class="token punctuation">]</span>
+SET <span class="token punctuation">[</span>PID <span class="token operator">=</span> <span class="token number">4</span>, PRIORITY <span class="token operator">=</span> <span class="token number">5</span>, COUNTER <span class="token operator">=</span> <span class="token number">5</span><span class="token punctuation">]</span>
+switch to <span class="token punctuation">[</span>PID <span class="token operator">=</span> <span class="token number">2</span>, PRIORITY <span class="token operator">=</span> <span class="token number">9</span>, COUNTER <span class="token operator">=</span> <span class="token number">9</span><span class="token punctuation">]</span>
+<span class="token punctuation">[</span>PID <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">]</span> Running. <span class="token builtin class-name">local</span> <span class="token operator">=</span> <span class="token number">1</span>
+<span class="token punctuation">[</span>S<span class="token punctuation">]</span> Supervisor timer interrupt
+<span class="token punctuation">[</span>PID <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">]</span> Running. <span class="token builtin class-name">local</span> <span class="token operator">=</span> <span class="token number">2</span>
+<span class="token punctuation">[</span>S<span class="token punctuation">]</span> Supervisor timer interrupt
+<span class="token punctuation">[</span>PID <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">]</span> Running. <span class="token builtin class-name">local</span> <span class="token operator">=</span> <span class="token number">3</span>
+<span class="token punctuation">[</span>S<span class="token punctuation">]</span> Supervisor timer interrupt
+<span class="token punctuation">[</span>PID <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">]</span> Running. <span class="token builtin class-name">local</span> <span class="token operator">=</span> <span class="token number">4</span>
+</code></pre><p>即每次时钟中断都会输出<code>[S] Supervisor timer interrupt</code>，而文档中没有。把这行打印语句注释掉即可。（但是文档里也没写呀qaq）</p>
+<p>最终效果：<br>
+<img src="./images/output.png" alt="output"><br>
+与文档完全一致。</p>
+<h2 id="3-思考题">3 思考题 </h2>
+<h4 id="1--在-rv64-中共有-32-个通用寄存器为什么-__switch_to-中只需保存-14-个">1.  在 RV64 中共有 32 个通用寄存器，为什么 <code>__switch_to</code> 中只需保存 14 个？ </h4>
+<p><code>sp</code>、<code>s0-s11</code>属于Callee-saved寄存器，<code>__switch_to</code>作为被调用者需要保存他们。<code>ra</code>寄存器保存了<code>__switch_to</code>的返回地址，也需要保存（否则切换回这个线程的时候会跳转到错误地址）。其他寄存器如<code>a0-a7</code>、<code>t0-t6</code>属于Caller-saved寄存器，不需要保存，因为调用者负责保存它们的值。<br>
+因此只需要保存<code>sp</code>、<code>s0-s11</code>和<code>ra</code>，共14个寄存器。</p>
+<h4 id="2-线程间什么是共享的什么是独有的具体体现在本次实验中是哪些">2. 线程间什么是共享的，什么是独有的？具体体现在本次实验中是哪些？ </h4>
+<ul>
+<li><strong>共享</strong>：
+<ul>
+<li>虚拟地址空间：包括代码段、数据段和堆栈段。所有线程共享同一个内核地址空间。</li>
+<li>打开的文件</li>
+<li>信号处理函数、PID等</li>
+</ul>
+</li>
+<li><strong>独有</strong>：
+<ul>
+<li>栈：每个线程都有独立的栈空间</li>
+<li>线程上下文：包括PC、SP、通用寄存器、状态寄存器等</li>
+<li>线程属性：如线程ID、优先级、时间片等</li>
+</ul>
+</li>
+</ul>
+<p><strong>在本次实验中</strong>：</p>
+<ul>
+<li><strong>共享</strong>：
+<ul>
+<li>内核代码：所有线程都运行在同一个内核代码段中</li>
+<li>全局变量：比如<code>proc.c</code>中定义的<code>task</code>数组、<code>current</code>指针、<code>idle</code>指针等</li>
+<li>内核地址空间</li>
+</ul>
+</li>
+<li><strong>独有</strong>：
+<ul>
+<li>线程栈：在<code>task_init</code>中为每个线程分配独立的栈空间</li>
+<li>线程上下文：在<code>struct thread_struct</code>中保存每个线程的<code>ra</code>、<code>sp</code> 和 <code>s0-s11</code>寄存器值</li>
+<li>线程属性：如<code>task_struct</code>中的<code>pid</code>、<code>priority</code>、<code>counter</code>等</li>
+</ul>
+</li>
+</ul>
+<h4 id="3-当线程第一次调用-__switch_to-时其-ra-寄存器恢复的返回地址是-__dummy线程在之后对-__switch_to-的调用中ra-寄存器保存--恢复的函数返回地址是什么呢请使用-gdb-追踪一次完整的线程切换流程附上你认为关键的截图并特别关注-pc-ra-寄存器-sepc-csr-的变化">3. 当线程第一次调用 <code>__switch_to</code> 时，其 <code>ra</code> 寄存器恢复的返回地址是 <code>__dummy</code>。线程在之后对 <code>__switch_to</code> 的调用中，<code>ra</code> 寄存器保存 / 恢复的函数返回地址是什么呢？请使用 gdb 追踪一次完整的线程切换流程（附上你认为关键的截图），并特别关注 <code>pc</code>、<code>ra</code> 寄存器、<code>sepc</code> CSR 的变化。 </h4>
+<p>在第一次执行到<code>__switch_to</code>入口处时<code>pc</code>、<code>ra</code>和<code>sp</code>的值如下图所示：<br>
+<img src="./images/q3-__switch_to%E5%85%A5%E5%8F%A3pc.png" alt=""><br>
+<code>pc</code>指向<code>__switch_to</code>函数的入口地址。<br>
+当线程第一次调用 <code>__switch_to</code> 时，其 <code>ra</code> 寄存器恢复的返回地址是 <code>__dummy</code>。<br>
+<img src="./images/q3-%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%B0%83%E7%94%A8-ra.png" alt=""><br>
+第一次调用<code>__switch_to</code>是从idle线程切换到PID=2的线程，<code>ra</code>寄存器保存了<code>__dummy</code>的地址。<br>
+之后依次切换到PID=1、4、3，的线程时<code>ra</code>都是<code>__dummy</code>的地址。<br>
+<img src="./images/q3-%E4%B9%8B%E5%90%8E%E8%B0%83%E7%94%A8-ra.png" alt=""><br>
+当线程切换回PID=2时，<code>ra</code>恢复为<code>switch_to+36</code>，即上次从PID=2切换出去时（<code>switch_to+32</code>）的下一条指令地址（+4）。<br>
+<img src="./images/q3-%E5%88%87%E6%8D%A2%E5%9B%9EPID2-ra.png" alt=""></p>
+<h4 id="4-尝试回答这些问题第-2-题的结果对这些问题应当很有帮助">4. 尝试回答这些问题。第 2 题的结果对这些问题应当很有帮助： </h4>
+<h5 id="a-为什么在-__dummy-中使用-asm-sret-而不是-asm-ret">a. 为什么在 <code>__dummy</code> 中使用 <code>#!asm sret</code> 而不是 <code>#!asm ret</code>？ </h5>
+<p><code>__dummy</code>的实现方式是</p>
+<pre data-role="codeBlock" data-info="asm" class="language-asm asm"><code>__dummy:
+    # 1. 将 dummy_task 的地址加载到 t0
+    la t0, dummy_task
+
+    # 2. 将 t0 的值写入 sepc 寄存器
+    csrw sepc, t0
+
+    # 3. 使用sret跳转到 dummy_task
+    sret
+</code></pre><p>将<code>sepc</code>设置为<code>dummy_task</code>的地址，使用<code>sret</code>指令跳转到<code>sepc</code>指向的地址。而<code>ret</code>指令是跳转到<code>ra</code>指向的地址，与涉及不符。<br>
+而且<code>sret</code>会将<code>sstatus</code>寄存器的SIE位恢复，重新开启中断，使系统能够进行后续的调度。如果使用<code>ret</code>，则无法重新触发中断，无法进行后续的调度。</p>
+<h5 id="b-为什么在-__switch_to-中使用-asm-ret-而不是-asm-sret">b. 为什么在 <code>__switch_to</code> 中使用 <code>#!asm ret</code> 而不是 <code>#!asm sret</code>？ </h5>
+<p><code>__switch_to</code>函数是被c语言函数<code>switch_to</code>调用的，它的返回地址保存在<code>ra</code>寄存器中，所以需要使用<code>ret</code>指令跳转到。<br>
+<code>sret</code>指令用于跳转到<code>sepc</code>指向的地址，会直接跳过<code>switch_to</code>函数的返回地址，导致程序无法正确返回到调用<code>switch_to</code>的地方。</p>
+<h5 id="c-为什么我们不直接在-start_kernel-中调用-schedule-进行调度而是要把这件事交给第一次时钟中断呢请尝试直接调用-schedule-观察现象在中断发生时有哪些重要的-csr-发生了变化">c. 为什么我们不直接在 <code>start_kernel</code> 中调用 <code>schedule</code> 进行调度，而是要把这件事交给第一次时钟中断呢？请尝试直接调用 <code>schedule</code> 观察现象。在中断发生时，有哪些重要的 CSR 发生了变化？ </h5>
+<p>线程调度需要依赖中断机制来保存上下文，如果在<code>start_kernel</code>中直接调用<code>schedule</code>，会导致当前线程的上下文没有被保存。</p>
+<p>中断发生时，以下CSR会发生变化：</p>
+<ul>
+<li><code>sepc</code>：保存中断发生时的程序计数器（返回地址）</li>
+<li><code>scause</code>：保存中断的原因</li>
+<li><code>sstatus</code>：保存中断前的状态寄存器</li>
+</ul>
+<p>如果直接调用<code>schedule</code>，会导致这些CSR没有被正确设置，引起异常。<br>
+<img src="./images/q4-c-%E7%9B%B4%E6%8E%A5%E8%B0%83%E7%94%A8.png" alt=""><br>
+<code>scause = 8</code> 代表 <strong>Environment call from U-mode</strong>（用户态环境调用）<br>
+直接调用<code>schedule</code>会导致<code>sstatus</code>没有被正确设置，然后<code>sret</code>会返回U态，然后再执行<code>ecall</code>时就会触发权限异常。</p>
+<h4 id="5-dummy_task-的注释中提到了-priority-为-1-时的特殊情况请解释为什么-priority-为-1-时如果去除对-counter-的特殊处理会导致信息无法打印即为什么线程可见的-counter-永远为-1">5. <code>dummy_task</code> 的注释中提到了 <code>priority</code> 为 1 时的特殊情况。请解释为什么 <code>priority</code> 为 1 时，如果去除对 <code>counter</code> 的特殊处理，会导致信息无法打印（即，为什么线程可见的 <code>counter</code> 永远为 1）？ </h4>
+<p>如果<code>priority</code>为1时不进行特殊处理，<code>current-&gt;counter</code>会被设置为1，中断发生时，<code>do_timer</code>会将<code>current-&gt;counter</code>减1，变为0，然后调用<code>schedule</code>进行调度。<code>schedule</code>发现counter为0，会重新设置<code>counter</code>为<code>priority</code>的值，即1。这样每次中断后，<code>counter</code>都会被重置为1，导致线程看到的<code>counter</code>永远是1。<code>dummy_task</code>看不到<code>counter</code>的变化（<code>current-&gt;counter != prev_cnt</code>始终为假），因此无法打印信息。</p>
+<h4 id="6-阅读并理解-archriscvkernelmmc为什么在准备工程_8中我们不能直接将-sp-设置为-_ekernel-加上-4-kib-偏移量实际上如果仍然保持这种设置方式会发现内核无法正常启动你的回答应当能够解释这一现象">6. 阅读并理解 <code>arch/riscv/kernel/mm.c</code>。为什么在<a href="#_8">准备工程</a>中，我们不能直接将 <code>sp</code> 设置为 <code>_ekernel</code> 加上 4 KiB 偏移量？实际上，如果仍然保持这种设置方式，会发现内核无法正常启动。你的回答应当能够解释这一现象。 </h4>
+<p>如果仍然保持这种方式，内核启动时的栈空间位于<code>[_ekernel, _ekernel + 4KiB)</code>，然后调用<code>mm_init</code>函数会将<code>_ekernel</code>之后直到<code>PHY_END</code>的物理内存初始化，这个过程会覆写刚才分配的栈空间，导致<code>mm_init</code>函数的栈空间被破坏（比如返回地址被<code>memset</code>覆写为<code>0xfa</code>），从而导致内核无法正常启动。</p>
+<p>lab6链接示意图：</p>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>┌──────────────┐◄─── _skernel, _start, 0x80200000
+│ .text        │
+├──────────────┤
+│ .rodata      │
+├──────────────┤
+│ .data        │
+├──────────────┤
+│ .bss.stack   │
+│ (4KiB)       │
+├──────────────┤◄─── _sbss (sp 初始值)
+│ .bss         │
+├──────────────┤◄─── _ekernel
+│              │
+│  Free Memory │ &lt;--- mm_init 初始化的区域
+│     ...      │
+└──────────────┘
+</code></pre><h4 id="7-为什么线程的切换要在s态进行而不能在u态进行如果在u态会有什么后果">7. 为什么线程的切换要在S态进行而不能在U态进行，如果在U态会有什么后果？ </h4>
+<ul>
+<li>原因：
+<ol>
+<li>权限限制：线程切换涉及对CPU状态的保存与恢复，需要访问特权寄存器（如<code>sstatus</code>）和执行特权指令（如<code>sret</code>）。U态没有足够的权限来执行这些操作。</li>
+<li>内核内存保护：线程的上下文（<code>thread_struct</code>）、内核栈等结构储存在内核空间的内存中。为了系统安全，U态程序无法直接访问内核空间的内存。</li>
+<li>中断控制：线程切换通常发生在系统调用或中断处理过程中，这些操作都在S态下进行。</li>
+</ol>
+</li>
+<li>后果：
+<ol>
+<li>权限错误：如果尝试在U态进行线程切换，会因为权限不足而导致异常或错误。</li>
+<li>系统崩溃：由于无法正确保存和恢复线程上下文，可能导致系统状态混乱，最终导致系统崩溃。</li>
+<li>安全漏洞：如果U态程序能够进行线程切换，可能会导致恶意程序修改调度逻辑，剥夺其他线程的执行机会。</li>
+</ol>
+</li>
+</ul>
+<h4 id="8-我们本次lab是在所有线程的时间片都消耗为0后再进行设置和调度如果我们改成每运行减少10次之后就重新设置与调度会出现什么问题">8. 我们本次lab是在所有线程的时间片都消耗为<code>0</code>后再进行设置和调度，如果我们改成每运行减少10次之后就重新设置与调度。会出现什么问题？ </h4>
+<p>如果改成每运行减少10次之后就重新设置与调度，<code>priority</code>大的线程的<code>counter</code>会优先减小然后再充满，导致系统一直运行高优先级的线程，<code>priority</code>小的线程可能长时间得不到调度机会。</p>
+<h4 id="9-bonus试着按照思考题8的问题修改你的代码用运行结果来展示你上一条的答案本bonus仅在本次实验中有效不会溢出到其他实验">9. （bonus）试着按照思考题8的问题修改你的代码，用运行结果来展示你上一条的答案（本bonus仅在本次实验中有效，不会溢出到其他实验） </h4>
+<p><img src="./images/q9.png" alt=""><br>
+如图所示，PID=2的线程（优先级最高）一直在运行，在时间片减小10次重新设置和调度的情况下，运行的仍然是PID=2的线程，其他线程没有机会运行。</p>
+<h4 id="10-本次实验是最后一次软件实验你有什么想说的话吗不记录分数纯属用于吐槽可以是助教工作实验设计实验流程实验环境等等">10. 本次实验是最后一次软件实验，你有什么想说的话吗，不记录分数，纯属用于吐槽，可以是助教工作，实验设计，实验流程，实验环境等等。 </h4>
+<p>思考题好多。这个问题和心得体会是不是有点重复？</p>
+<h2 id="4-心得体会">4 心得体会 </h2>
+<p>见思考题10。</p>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>

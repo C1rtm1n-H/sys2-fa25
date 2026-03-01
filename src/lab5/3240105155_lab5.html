@@ -1,0 +1,218 @@
+<!DOCTYPE html><html><head>
+      <title>3240105155_lab5</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:////home/cartman/.vscode-server/extensions/shd101wyy.markdown-preview-enhanced-0.8.20/crossnote/dependencies/katex/katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="lab-5-实验报告">Lab 5 实验报告 </h1>
+<h2 id="1-实验目的">1 实验目的 </h2>
+<p>我们在这个实验中学习RISC-V中的trap处理机制，理解并实现上下文切换的过程，掌握时钟中断的处理流程。</p>
+<h2 id="2-试验过程">2 试验过程 </h2>
+<h4 id="问题-1按照文档完成试验后无法观察到输出不同步的现象">问题 1：按照文档完成试验后，无法观察到输出不同步的现象 </h4>
+<p><strong>解决方案</strong>：实际上是因为运行时间不够长，执行<code>printk</code>的累计时间没有超过时钟中断的间隔时间。当运行到第695次时钟中断时，第一次观察到失去同步的现象，这个数值可以验证思考题4中对于<code>printk</code>执行时间的估算（1MHz/20250约等于500，基本符合观察到的695）.</p>
+<h2 id="3-思考题">3 思考题 </h2>
+<h4 id="1-在实现上下文切换部分我们需要保存寄存器谈谈为什么需要保存寄存器和-sepc其他的特权寄存器则不需要以及为什么要保存在栈上">1. 在实现上下文切换部分，我们需要保存寄存器，谈谈为什么需要保存寄存器和 sepc，其他的特权寄存器则不需要，以及为什么要保存在栈上 </h4>
+<ol>
+<li>
+<p>为什么要保存寄存器？<br>
+中断处理程序<code>trap_handler</code>在执行时需要用到寄存器，并且修改寄存器中的值。如果不保存寄存器的值，处理程序执行完毕后，原来的寄存器值会丢失，导致中断发生前的程序无法正确继续执行。</p>
+<ul>
+<li>不保存寄存器的后果：</li>
+</ul>
+<ol>
+<li>将<code>entry.S</code>中保存和恢复<code>t0</code>的代码注释掉然后重新编译。</li>
+</ol>
+<pre data-role="codeBlock" data-info="asm" class="language-asm asm"><code># sd x5, 24(sp)
+...
+# ld x5, 24(sp)
+</code></pre><ol start="2">
+<li>使用gdb调试，分别在<code>_traps</code>开始处和<code>sret</code>处设置断点，运行程序并观察<code>t0</code>寄存器的值。</li>
+</ol>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token punctuation">(</span>gdb<span class="token punctuation">)</span> b _traps
+<span class="token punctuation">(</span>gdb<span class="token punctuation">)</span> c
+<span class="token punctuation">(</span>gdb<span class="token punctuation">)</span> i r t0
+<span class="token punctuation">(</span>gdb<span class="token punctuation">)</span> b *0x000000008020017c
+<span class="token punctuation">(</span>gdb<span class="token punctuation">)</span> c
+<span class="token punctuation">(</span>gdb<span class="token punctuation">)</span> i r t0
+</code></pre><ol start="3">
+<li>结果显示，执行<code>trap_handler</code>时，<code>t0</code>寄存器的值会被修改（0x0变为0x802001e4）。<br>
+<img src="images/q1-1.png" alt="不保存寄存器的后果"><br>
+这个被修改的值可能会影响后续程序的执行，导致程序行为异常。</li>
+</ol>
+</li>
+<li>
+<p>为什么要保存sepc而其他特权寄存器不需要？<br>
+sepc寄存器记录了中断发生时CPU正在执行的指令的地址，中断处理结束后需要通过sepc恢复程序的执行。如果发生嵌套中断，sepc会被覆盖，因此必须保存。其他特权寄存器在中断处理过程中不会被修改或者是只读的，因此不需要保存。</p>
+<ul>
+<li>不保存sepc的后果:<br>
+由于没有发生嵌套中断，按照上面的方法测试并不能观察到问题。<br>
+<img src="images/q1-2.png" alt="不保存sepc无法观察到问题"><br>
+因此我们需要人为制造嵌套中断的情况来观察不保存sepc的后果。</li>
+</ul>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token punctuation">(</span>gdb<span class="token punctuation">)</span> b _traps
+<span class="token punctuation">(</span>gdb<span class="token punctuation">)</span> c
+<span class="token punctuation">(</span>gdb<span class="token punctuation">)</span> i r sepc         <span class="token operator">&lt;</span>-- 记录正确值
+<span class="token punctuation">(</span>gdb<span class="token punctuation">)</span> b *0x8020017c    <span class="token operator">&lt;</span>-- 在 sret 处断点
+<span class="token punctuation">(</span>gdb<span class="token punctuation">)</span> c
+<span class="token punctuation">(</span>gdb<span class="token punctuation">)</span> <span class="token builtin class-name">set</span> <span class="token variable">$sepc</span> <span class="token operator">=</span> <span class="token number">0</span>    <span class="token operator">&lt;</span>-- 手动破坏 sepc
+<span class="token punctuation">(</span>gdb<span class="token punctuation">)</span> si               <span class="token operator">&lt;</span>-- 执行 sret
+<span class="token punctuation">(</span>gdb<span class="token punctuation">)</span> p/x <span class="token variable">$pc</span>          <span class="token operator">&lt;</span>-- 查看 PC
+<span class="token punctuation">(</span>gdb<span class="token punctuation">)</span> i r sepc         <span class="token operator">&lt;</span>-- 查看 sepc
+</code></pre><p>结果显示，执行<code>trap_handler</code>后，<code>sepc</code>寄存器的值会被修改（0x802001f4变为0x0），但是pc的值又回到了<code>_traps</code>的入口<code>0x80200060</code>。<br>
+<img src="images/q1-3.png" alt="不保存sepc的后果"><br>
+这是因为将sepc设置为0后，CPU尝试跳转到无效的地址，因此触发了新的异常。<br>
+<img src="images/q1-4.png" alt="新的异常"><br>
+此时CPU跳转到<code>stvec</code>中设置的地址<code>0x80200060</code>（在<code>head.S</code>中设置），重新进入了<code>_traps</code>处理程序。根据我在<code>trap.c</code>中的设置，遇到exception会打印错误信息并进入死循环。</p>
+<pre data-role="codeBlock" data-info="c" class="language-c c"><code><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+<span class="token keyword keyword-else">else</span><span class="token punctuation">{</span>
+    <span class="token comment">// 处理异常</span>
+    <span class="token function">printk</span><span class="token punctuation">(</span><span class="token string">"Unknown exception: scause = %lx, sepc = %lx\n"</span><span class="token punctuation">,</span> scause<span class="token punctuation">,</span> sepc<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// 死循环</span>
+    <span class="token keyword keyword-while">while</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></li>
+<li>
+<p>为什么要保存在栈上？<br>
+栈的LIFO特性适用于函数嵌套调用调用，中断处理程序可能会被嵌套调用，因此使用栈来保存寄存器和sepc是合适的选择。而且每个线程都会有自己的栈，将寄存器保存到栈上可以避免不同线程之间的冲突.</p>
+</li>
+</ol>
+<h4 id="2-在我们使用-make-run-时opensbi-会产生如下输出">2. 在我们使用 <code>make run</code> 时，OpenSBI 会产生如下输出： </h4>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>Boot HART MIDELEG         <span class="token builtin class-name">:</span> 0x0000000000001666
+Boot HART MEDELEG         <span class="token builtin class-name">:</span> 0x0000000000f0b509
+</code></pre><p>查阅 The RISC-V Instruction Set Manual: Volume II - Privileged Architecture，解释<strong>你的</strong> OpenSBI 给出的 <code>MIDELEG</code> 和 <code>MEDELEG</code> 值的含义。如果实验中 <code>mideleg</code> 和 <code>medeleg</code> CSR 没有被正确设定，会有什么影响？</p>
+<p>我的 OpenSBI 给出的 <code>MIDELEG</code> 和 <code>MEDELEG</code> 值和上述值相同。<br>
+<img src="images/q2-1.png" alt="OpenSBI 输出"><br>
+在上述文档的3.1.8节Machine Trap Delegation Registers (medeleg and mideleg)中，有如下描述：</p>
+<blockquote>
+<p>To increase performance, implementations can provide individual read/write bits within medeleg and mideleg to indicate that certain exceptions and interrupts should be processed directly by a lower privilege level.<br>
+<img src="images/q2-2.png" alt="中断和异常类型表"></p>
+</blockquote>
+<p>在RISC-V中，<code>mideleg</code>和<code>medeleg</code>寄存器用于指示哪些中断和异常应该被委托给较低特权级别（如Supervisor模式）处理。每个位对应一种特定的中断或异常类型，如果该位被设置为1，则表示该类型的中断或异常将被委托给较低特权级别处理。<br>
+查表可知：</p>
+<ul>
+<li><code>Boot HART MIDELEG : 0x0000000000001666</code>二进制值位<code>... 0001 0110 0110 0110</code>，表示以下中断被委托给Supervisor模式处理：
+<ul>
+<li>Supervisor Software Interrupt (bit 1)</li>
+<li>Supervisor Timer Interrupt (bit 5)</li>
+<li>Supervisor External Interrupt (bit 9)</li>
+<li>bit 2、6、10、12是保留位（Reserved）</li>
+</ul>
+</li>
+<li><code>Boot HART MEDELEG : 0x0000000000f0b509</code>二进制值位<code>... 1111 0000 1011 0101 0000 1001</code>，表示以下异常被委托给Supervisor模式处理：
+<ul>
+<li>Instruction Address Misaligned (bit 0)</li>
+<li>Breakpoint (bit 3)</li>
+<li>Environment Call from U-mode (bit 8)</li>
+<li>Instruction Page Fault (bit 12)</li>
+<li>Load Page Fault (bit 13)</li>
+<li>Store/AMO Page Fault (bit 15)</li>
+<li>bit 10、20-23是保留位（Reserved）</li>
+</ul>
+</li>
+</ul>
+<h4 id="3-如何在不支持-m-扩展的处理器上执行-m-扩展指令">3. 如何在不支持 M 扩展的处理器上执行 M 扩展指令？ </h4>
+<p>参考The RISC-V Instruction Set Manual: Volume I - Unprivileged Architecture 第 1.2 节中的下面一段话：</p>
+<blockquote>
+<p>The implementation of a RISC-V execution environment can be pure hardware, pure software, or a combination of hardware and software. For example, opcode traps and software emulation can be used to implement functionality not provided in hardware.</p>
+</blockquote>
+<p>RISC-V的执行环境可以是硬件与软件的组合。要想在不支持M扩展的处理器（hardware）上执行M扩展指令，可以通过软件模拟的方式来实现。具体来说，当处理器遇到M扩展指令时，可以触发一个异常（opcode trap），然后由操作系统或运行时环境捕获这个异常，并通过软件模拟的方式（用基础整数指令模拟乘除运算）来执行该指令的功能。这种方法允许在不具备硬件支持的情况下，仍然能够执行M扩展指令。</p>
+<h4 id="4-如果是完全按照我们的实验指导实现的那么在运行一段时间后你应当会看到-test-函数的输出和时钟中断的输出出现失去同步的情况">4. 如果是完全按照我们的实验指导实现的，那么在运行一段时间后，你应当会看到 <code>test</code> 函数的输出和时钟中断的输出出现失去同步的情况： </h4>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token punctuation">[</span>S<span class="token punctuation">]</span> Supervisor timer interrupt
+Kernel is running<span class="token operator">!</span> timeval <span class="token operator">=</span> <span class="token number">195</span>
+<span class="token punctuation">[</span>S<span class="token punctuation">]</span> Supervisor timer interrupt
+Kernel is running<span class="token operator">!</span> timeval <span class="token operator">=</span> <span class="token number">196</span>
+Kernel is running<span class="token operator">!</span> timeval <span class="token operator">=</span> <span class="token number">197</span>
+<span class="token punctuation">[</span>S<span class="token punctuation">]</span> Supervisor timer interrupt
+Kernel is running<span class="token operator">!</span> timeval <span class="token operator">=</span> <span class="token number">198</span>
+<span class="token punctuation">[</span>S<span class="token punctuation">]</span> Supervisor timer interrupt
+</code></pre><p>请分析这种现象的原因，问题出在 <code>test</code> 函数还是时钟中断上？请通过gdb调试截图来说明问题。请修改代码，来保持两者的同步<br>
+tips：请备份修改前的代码，这个修改在完成思考题5之后可以复原，便于后续实验的进行</p>
+<p>我的程序在运行到第695次时钟中断时，出现了失去同步的情况。<br>
+<img src="images/q4-1.png" alt="失去同步"><br>
+问题出现在<code>clock.c</code>时钟中断的设置方式上。在<code>clock_set_next_event</code>函数中，我们通过以下代码设置下一个时钟中断：</p>
+<pre data-role="codeBlock" data-info="c" class="language-c c"><code><span class="token keyword keyword-asm">asm</span> <span class="token keyword keyword-volatile">volatile</span><span class="token punctuation">(</span><span class="token string">"rdtime %0"</span> <span class="token operator">:</span> <span class="token string">"=r"</span><span class="token punctuation">(</span>time<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 获取当前时间</span>
+<span class="token class-name">uint64_t</span> next <span class="token operator">=</span> time <span class="token operator">+</span> TIMECLOCK<span class="token punctuation">;</span>       <span class="token comment">// 下一次 = 当前 + 间隔</span>
+<span class="token function">sbi_set_timer</span><span class="token punctuation">(</span>next<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><p>这里我们每次都从<code>rdtime</code>获取当前时间，然后加上一个固定的间隔<code>TIMECLOCK</code>来设置下一个中断时间。然而，由于<code>printk</code>函数的输出需要一定的时间，如果<code>printk</code>的累计的执行时间超过了<code>TIMECLOCK</code>，就会导致<code>test</code>函数的输出和时钟中断的输出失去同步。</p>
+<ul>
+<li>GDB调试：在<code>clock_set_next_event</code>函数入口处设置断点，观察连续两次中断之间的时间差。<br>
+<img src="images/q4-2.png" alt="GDB调试"><br>
+可以看到，连续两次中断之间的时间差<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>20474326</mn><mo>−</mo><mn>10454076</mn><mo>=</mo><mn>10020250</mn></mrow><annotation encoding="application/x-tex">20474326-10454076=10020250</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">20474326</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">10454076</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">10020250</span></span></span></span>大于<code>TIMECLOCK</code>，产生了时间为20250的延迟，这个延迟在循环中不断累积，最终导致了失去同步的现象。</li>
+</ul>
+<p>为了解决这个问题，我们可以修改<code>clock_set_next_event</code>函数，使其基于上一次中断的时间来计算下一次中断时间，而不是每次都从当前时间开始计算。修改后的代码如下：</p>
+<pre data-role="codeBlock" data-info="c" class="language-c c"><code><span class="token keyword keyword-static">static</span> <span class="token class-name">uint64_t</span> last_time <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> <span class="token comment">// 记录上一次中断时间</span>
+<span class="token keyword keyword-void">void</span> <span class="token function">clock_set_next_event</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token class-name">uint64_t</span> time<span class="token punctuation">;</span>
+    <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>last_time <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword keyword-asm">asm</span> <span class="token keyword keyword-volatile">volatile</span><span class="token punctuation">(</span><span class="token string">"rdtime %0"</span> <span class="token operator">:</span> <span class="token string">"=r"</span><span class="token punctuation">(</span>time<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 获取当前时间</span>
+        last_time <span class="token operator">=</span> time<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    last_time <span class="token operator">+=</span> TIMECLOCK<span class="token punctuation">;</span>       <span class="token comment">// 下一次 = 上一次 + 间隔</span>
+    <span class="token function">sbi_ecall</span><span class="token punctuation">(</span><span class="token number">0x54494D45</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> last_time<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><p>修改后再次进行gdb调试，发现连续两次中断的时间差30403032-20403032等于<code>TIMECLOCK</code>，成功保持了同步。<br>
+<img src="images/q4-3.png" alt="修改后同步"></p>
+<h4 id="5-请自行设计方案测试-test-函数中的-printk-输出信息需要的时间假定时钟频率为-10-mhz在确保每次-timeval-变化时信息都能被完整输出的情况下每秒最多可以发生多少次时钟中断请尝试修改-timeclock-和其他可能需要修改的地方验证这个值只需近似计算即可">5. 请自行设计方案，测试 <code>test</code> 函数中的 <code>printk</code> 输出信息需要的时间。假定时钟频率为 10 MHz，在确保每次 <code>timeval</code> 变化时，信息都能被完整输出的情况下，每秒最多可以发生多少次时钟中断？请尝试修改 <code>TIMECLOCK</code> 和其他可能需要修改的地方，验证这个值。只需近似计算即可。 </h4>
+<ul>
+<li>设计方案：<br>
+在<code>test</code>函数中，我们可以在每次执行<code>printk</code>前后使用<code>rdtime</code>指令获取时间戳，然后计算两次时间戳的差值来估算<code>printk</code>函数的执行时间。具体实现如下：</li>
+</ul>
+<pre data-role="codeBlock" data-info="c" class="language-c c"><code><span class="token keyword keyword-asm">asm</span> <span class="token keyword keyword-volatile">volatile</span><span class="token punctuation">(</span><span class="token string">"rdtime %0"</span> <span class="token operator">:</span> <span class="token string">"=r"</span><span class="token punctuation">(</span>start<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">printk</span><span class="token punctuation">(</span><span class="token string">"Kernel is running! timeval = %"</span> PRIu64 <span class="token string">"\n"</span><span class="token punctuation">,</span> timeval<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword keyword-asm">asm</span> <span class="token keyword keyword-volatile">volatile</span><span class="token punctuation">(</span><span class="token string">"rdtime %0"</span> <span class="token operator">:</span> <span class="token string">"=r"</span><span class="token punctuation">(</span>end<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">printk</span><span class="token punctuation">(</span><span class="token string">"printk took %"</span> PRIu64 <span class="token string">" cycles\n"</span><span class="token punctuation">,</span> end <span class="token operator">-</span> start<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><p><img src="images/q5-1.png" alt="printk执行时间"></p>
+<ul>
+<li>
+<p>计算<code>printk</code>需要时间：<br>
+取第11-20次输出的平均值，<code>printk</code>函数的平均执行时间约为<br>
+<span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>T</mi><mo>=</mo><mfrac><mrow><munderover><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>11</mn></mrow><mn>20</mn></munderover><mi>c</mi><mi>o</mi><mi>s</mi><msub><mi>t</mi><mi>i</mi></msub></mrow><mn>10</mn></mfrac><mo>=</mo><mn>1581.0</mn><mtext>&nbsp;cycles</mtext></mrow><annotation encoding="application/x-tex">T = \frac{\sum_{i=11}^{20}cost_i}{10} = 1581.0 \text{ cycles}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">T</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:2.3297em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.6437em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">10</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.6897em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mop"><span class="mop op-symbol small-op" style="position:relative;top:0em;">∑</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.954em;"><span style="top:-2.4003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">i</span><span class="mrel mtight">=</span><span class="mord mtight">11</span></span></span></span><span style="top:-3.2029em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">20</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2997em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">cos</span><span class="mord"><span class="mord mathnormal">t</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3117em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord">1581.0</span><span class="mord text"><span class="mord">&nbsp;cycles</span></span></span></span></span></span></p>
+</li>
+<li>
+<p>计算最大时钟中断频率：<br>
+为了确保信息能被完整输出，需要每次中断的间隔时间大于等于<code>printk</code>的执行时间<br>
+最小间隔为<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>T</mi><mrow><mi>m</mi><mi>i</mi><mi>n</mi></mrow></msub><mo>=</mo><mn>2</mn><mo>×</mo><mi>T</mi><mo>=</mo><mn>3162.0</mn></mrow><annotation encoding="application/x-tex">T_{min} = 2 \times T = 3162.0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3117em;"><span style="top:-2.55em;margin-left:-0.1389em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">min</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">T</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">3162.0</span></span></span></span> cycles<br>
+最大频率为<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>f</mi><mrow><mi>m</mi><mi>a</mi><mi>x</mi></mrow></msub><mo>=</mo><mfrac><mrow><mn>10</mn><mtext>&nbsp;MHz</mtext></mrow><msub><mi>T</mi><mrow><mi>m</mi><mi>i</mi><mi>n</mi></mrow></msub></mfrac><mo>≈</mo><mn>3162.6</mn></mrow><annotation encoding="application/x-tex">f_{max} = \frac{10 \text{ MHz}}{T_{min}} \approx 3162.6</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:-0.1076em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">ma</span><span class="mord mathnormal mtight">x</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.3174em;vertical-align:-0.4451em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8723em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3281em;"><span style="top:-2.357em;margin-left:-0.1389em;margin-right:0.0714em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">min</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">10</span><span class="mord text mtight"><span class="mord mtight">&nbsp;MHz</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.4451em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">3162.6</span></span></span></span> Hz</p>
+</li>
+<li>
+<p>验证：<br>
+将<code>TIMECLOCK</code>设置为2500（小于<code>printk</code>执行时间），运行程序，发现输出信息出现了丢失，只能看到<code>[S] Supervisor timer interrupt</code>，无法看到<code>Kernel is running! timeval = ...</code>的信息。这说明CPU时间完全用于处理中断，没有执行<code>test</code>。<br>
+<img src="images/q5-2.png" alt="TIMECLOCK=2500丢失输出"></p>
+</li>
+</ul>
+<p>将<code>TIMECLOCK</code>设置为4000（大于<code>printk</code>执行时间），运行程序，发现可以看得到<code>Kernel is running! timeval = ...</code>的信息，说明<code>test</code>函数有机会执行，验证了计算的最大频率大致正确。<br>
+<img src="images/q5-3.png" alt="TIMECLOCK=4000正常输出"></p>
+<h2 id="4-心得体会">4 心得体会 </h2>
+<p>思考题很有分量。</p>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html><html><head>
+      <title>3240105155_lab3</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:////home/cartman/.vscode-server/extensions/shd101wyy.markdown-preview-enhanced-0.8.20/crossnote/dependencies/katex/katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="lab-3-实验报告">Lab 3 实验报告 </h1>
+<h2 id="1-实验目的">1 实验目的 </h2>
+<p>我这个实验通过学习调用硬件卷积加速模块，了解了如何使用MMIO外设。同时通过对比软件实现和硬件实现的性能差异，理解了硬件加速器在计算密集型任务中的优势。</p>
+<h2 id="2-试验过程">2 试验过程 </h2>
+<ul>
+<li>
+<p><strong>问题 1</strong>：在运行<code>make conv 2&gt;/dev/null</code>时，输出错误，<code>write_kernel</code>只有一行，而且卷积结果不正确。<br>
+<img src="images/issue1.png" alt=""><br>
+<strong>解决方案</strong>：问题出在<code>conv_kernel_init</code>函数，在我最开始的实现中，我误以为将不同的卷积核参数写入卷积核参数队列应当写入连续的不同地址，就像数组在内存中一样储存，于是我写成了：</p>
+<pre data-role="codeBlock" data-info="c" class="language-c c"><code><span class="token keyword keyword-static">static</span> <span class="token keyword keyword-void">void</span> <span class="token function">conv_kernel_init</span><span class="token punctuation">(</span><span class="token keyword keyword-const">const</span> <span class="token class-name">uint64_t</span><span class="token operator">*</span> kernel_array<span class="token punctuation">,</span> <span class="token class-name">size_t</span> kernel_len<span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword keyword-for">for</span><span class="token punctuation">(</span><span class="token class-name">size_t</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span> i<span class="token operator">&lt;</span>kernel_len<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        CONV_BASE<span class="token punctuation">[</span>CONV_KERNEL_OFFSET <span class="token operator">+</span> i<span class="token punctuation">]</span> <span class="token operator">=</span> kernel_array<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><p>但是实际上卷积核参数应该被依次写入同一个地址，硬件会自动将其存入队列中，我那样写会导致只有第一个参数被写入，而剩下的参数被写入了储存其他东西的地址，比如<code>i==1</code>时：<code>CONV_BASE[1] = kernel_array[1]</code>而刚好有<code>CONV_DATA_OFFSET == 1</code>，导致卷积核参数被写进了数据队列，引发计算结果错误。正确的写法应当是：</p>
+<pre data-role="codeBlock" data-info="c" class="language-c c"><code><span class="token keyword keyword-static">static</span> <span class="token keyword keyword-void">void</span> <span class="token function">conv_kernel_init</span><span class="token punctuation">(</span><span class="token keyword keyword-const">const</span> <span class="token class-name">uint64_t</span><span class="token operator">*</span> kernel_array<span class="token punctuation">,</span> <span class="token class-name">size_t</span> kernel_len<span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword keyword-for">for</span><span class="token punctuation">(</span><span class="token class-name">size_t</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span> i<span class="token operator">&lt;</span>kernel_len<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        CONV_BASE<span class="token punctuation">[</span>CONV_KERNEL_OFFSET<span class="token punctuation">]</span> <span class="token operator">=</span> kernel_array<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token operator">&lt;</span><span class="token operator">--</span><span class="token operator">-</span>向同一个地址写入
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></li>
+<li>
+<p><strong>其他问题</strong>：在下板时遇到软件计算结果部分异常，按照<a href="https://git.zju.edu.cn/zju-sys/sys2/sys2-fa25/-/issues/26">issue26</a>中的方法可以解决。</p>
+</li>
+</ul>
+<p>这个实验中遇到的问题比较少，那就讲讲实现<code>mul_compute</code>函数时的思路吧。<br>
+由于当前指令集不支持mul操作，所以在实现乘法时，需要采用移位再相加的方法。具体来讲，对于两个64位整数a和b的乘法，我们可以将b的每一位与a相乘，然后根据该位的位置进行相应的左移，最后将所有结果相加得到最终的乘积。</p>
+<pre data-role="codeBlock" data-info="c" class="language-c c"><code><span class="token comment">// Calculate a * b without using *</span>
+<span class="token keyword keyword-static">static</span> <span class="token keyword keyword-void">void</span> <span class="token function">multiply_64to128</span><span class="token punctuation">(</span><span class="token class-name">uint64_t</span> a<span class="token punctuation">,</span> <span class="token class-name">uint64_t</span> b<span class="token punctuation">,</span> <span class="token class-name">uint64_t</span><span class="token operator">*</span> res_hi<span class="token punctuation">,</span> <span class="token class-name">uint64_t</span><span class="token operator">*</span> res_lo<span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token class-name">uint64_t</span> hi <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">,</span> lo <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+
+    <span class="token keyword keyword-for">for</span><span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">64</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword keyword-if">if</span><span class="token punctuation">(</span><span class="token punctuation">(</span>b <span class="token operator">&gt;&gt;</span> i<span class="token punctuation">)</span> <span class="token operator">&amp;</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token comment">// Add (a &lt;&lt; i) to the result</span>
+            <span class="token class-name">uint64_t</span> add_lo <span class="token operator">=</span> a <span class="token operator">&lt;&lt;</span> i<span class="token punctuation">;</span>
+            <span class="token class-name">uint64_t</span> add_hi <span class="token operator">=</span> <span class="token punctuation">(</span>i<span class="token operator">==</span><span class="token number">0</span><span class="token punctuation">)</span> <span class="token operator">?</span> <span class="token number">0</span> <span class="token operator">:</span> <span class="token punctuation">(</span>a <span class="token operator">&gt;&gt;</span> <span class="token punctuation">(</span><span class="token number">64</span> <span class="token operator">-</span> i<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// upper bits that overflow</span>
+
+            <span class="token class-name">uint64_t</span> new_lo <span class="token operator">=</span> lo <span class="token operator">+</span> add_lo<span class="token punctuation">;</span>
+            <span class="token class-name">uint64_t</span> carry <span class="token operator">=</span> <span class="token punctuation">(</span>new_lo <span class="token operator">&lt;</span> lo<span class="token punctuation">)</span> <span class="token operator">?</span> <span class="token number">1</span> <span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">;</span> <span class="token comment">// check overflow</span>
+            <span class="token class-name">uint64_t</span> new_hi <span class="token operator">=</span> hi <span class="token operator">+</span> add_hi <span class="token operator">+</span> carry<span class="token punctuation">;</span>
+
+            lo <span class="token operator">=</span> new_lo<span class="token punctuation">;</span>
+            hi <span class="token operator">=</span> new_hi<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token operator">*</span>res_hi <span class="token operator">=</span> hi<span class="token punctuation">;</span>
+    <span class="token operator">*</span>res_lo <span class="token operator">=</span> lo<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><h2 id="3-思考题">3 思考题 </h2>
+<ol>
+<li>
+<p><strong>分别给出使用卷积加速器和整数指令执行测试的执行时间，计算得到卷积加速器相对于整数指令的加速比。</strong></p>
+<p><img src="images/q1.png" alt=""><br>
+如图所示，卷积加速器执行时间为0x0440d cycles，整数指令执行时间为<br>
+0xe1378 cycles。计算得到加速比为：<br>
+<span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mfrac><mrow><mi>e</mi><mn>1378</mn></mrow><mrow><mn>0440</mn><mi>d</mi></mrow></mfrac><mo>=</mo><mn>34</mn></mrow><annotation encoding="application/x-tex">\frac{e1378}{0440d} = 34</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.0074em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3214em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">0440</span><span class="mord mathnormal">d</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal">e</span><span class="mord">1378</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">34</span></span></span></span></span></p>
+</li>
+<li>
+<p><strong>试分析卷积加速器相对于整数指令运算存在的优缺点，列举卷积加速器可以被使用的实际应用场景。</strong></p>
+<p><strong>优点：</strong></p>
+<ol>
+<li>
+<p>性能优越：本实验的卷积加速器用脉动阵列实现，在硬件层面实现了并行运算，可以在一个时钟周期内同时进行多次乘法和加法计算，和软件实现<code>mul_compute</code>的串行运算相比，吞吐量更高，性能更加优越。</p>
+</li>
+<li>
+<p>高能效：卷积运算单元专门用于执行这类运算，它的电路结构比CPU简单得多，执行相同规模的运算所消耗的能源远低于整数指令，同时还可以让CPU从卷积运算中解放出来，去执行其他指令。</p>
+</li>
+</ol>
+<p><strong>缺点：</strong></p>
+<ol>
+<li>
+<p>功能单一：卷积加速器只适用于执行卷积或类似运算，无法执行其他类型的运算，而整数指令运算的功能共多样，灵活性高。</p>
+</li>
+<li>
+<p>设计与制造成本高：在硬件层面实现卷积加速器需要额外的物理面积，在保持高性能的的前提下减小面积需要很高的设计和制造成本。</p>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>如何用卷积加速器实现乘法运算？</strong></p>
+<p>将<code>kernel_len</code>和<code>data_len</code>设置为1，<code>data_array</code>和<code>kernel_array</code>中分别填充被乘数（如A）和乘数（如B），就可以得到结果A*B</p>
+</li>
+<li>
+<p><strong>本实验将对大家卷积加速器的执行时间进行排序，排名高者予以 bonus，大家可以尝试优化自己的流水线实现、软件代码，以期得到更高的执行效率。</strong></p>
+<p>卷积加速器执行时间：0x0440d cycles</p>
+</li>
+</ol>
+<h2 id="4-心得体会">4 心得体会 </h2>
+<p>这个实验相比前两个真是温和很多。但是看issue发现有很多问题，比如仿真输出格式不对、内存overflow等等，学长学姐们都贡献了自己的解决方法。但是我觉得每年的实验文档应该根据往年遇到的问题做一些更新，并从更为专业的角度讲讲为什么会出现这个问题，这样更有利于大家对于实验内容的理解。比如这次试验遇到下板输出结果部分异常，按照issue26的解决方案改掉就可以通过，但是我还是不清楚为什么会这样。</p>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>

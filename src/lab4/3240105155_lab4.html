@@ -1,0 +1,214 @@
+<!DOCTYPE html><html><head>
+      <title>3240105155_lab4</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:////home/cartman/.vscode-server/extensions/shd101wyy.markdown-preview-enhanced-0.8.20/crossnote/dependencies/katex/katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="lab-4-实验报告">Lab 4 实验报告 </h1>
+<h2 id="1-实验目的">1 实验目的 </h2>
+<p>这个实验要求我们学习<code>makefile</code>和RISC-V汇编的编写，通过编写一个简单的引导程序来启动内核。<br>
+除此之外，我们还需要掌握使用Docker容器来搭建实验环境的技能。</p>
+<h2 id="2-试验过程">2 试验过程 </h2>
+<ul>
+<li>
+<p><strong>问题 1</strong>：编写完<code>makefile</code>后，执行<code>make</code>命令时，报错<code>*** missing separator.  Stop.</code><br>
+<strong>解决方案</strong>：在<code>makefile</code>中，命令行前面必须使用<strong>Tab键</strong>进行缩进，而不是空格键。将报错位置的缩进改为Tab就可以解决问题。</p>
+</li>
+<li>
+<p><strong>问题 2</strong>：执行<code>make</code>时报错<code>Error: illegal operands addi sp,sp,4096'</code><br>
+<strong>解决方案</strong>：RISC-V指令<code>addi</code>的立即数范围是-2048到2047，而4096超出了这个范围。需要使用两条指令来实现栈指针的调整：</p>
+<pre data-role="codeBlock" data-info="assembly" class="language-assembly assembly"><code>li t0, 4096       # 将4096加载到临时寄存器t0中
+add sp, sp, t0    # 将t0的值加到sp上
+</code></pre><p>这样就避免了立即数范围的问题。</p>
+</li>
+<li>
+<p><strong>问题 3</strong>：完成所有文件的编写后，执行<code>make</code>命令时，报错找不到头文件<code>sbi.h</code>和<code>print.h</code>。<br>
+<strong>解决方案</strong>：<br>
+我以为上层的makefile会处理include路径的问题，所以在编写子目录的makefile时没有添加头文件搜索路径。</p>
+<p>在<code>makefile</code>中添加头文件搜索路径，<code>CPPFLAGS := -I../include -I../../../include</code>，这样编译器就能找到头文件了。</p>
+</li>
+</ul>
+<p>最终执行<code>make run</code>，成功启动了内核，并在控制台输出了预期的信息：<br>
+<img src="./images/kernel_output.png" alt="kernel output"></p>
+<h2 id="3-思考题">3 思考题 </h2>
+<h4 id="1-我们的vmlinux文件由哪些文件编译而成">1. 我们的vmlinux文件由哪些文件编译而成？ </h4>
+<p>根据顶层的<code>Makefile</code>文件中的规则：</p>
+<pre data-role="codeBlock" data-info="makefile" class="language-makefile makefile"><code>  <span class="token variable">$</span><span class="token punctuation">(</span>LD<span class="token punctuation">)</span> -T arch/riscv/kernel/vmlinux.lds arch/riscv/kernel/*.o lib/*.o -o vmlinux
+</code></pre><p>可以看出，<code>vmlinux</code>是由<code>arch/riscv/kernel/*.o</code>和<code>lib/*.o</code>文件链接而成的。这些<code>.o</code>文件是通过编译<code>arch/riscv/kernel</code>目录下的源文件和<code>lib</code>目录下的源文件生成的。<br>
+包括<code>arch/riscv/kernel</code>目录下的<code>head.S</code>、<code>main.c</code>、<code>print.c</code>、<code>sbi.c</code>和<code>lib</code>目录下的<code>div.S</code>、<code>muldi3.S</code>。vmlinux.lds作为链接器脚本，定义了最终可执行文件的内存布局。</p>
+<h4 id="2-使用-riscv64-linux-gnu-objdump-反汇编-vmlinux你发现了什么">2. 使用 riscv64-linux-gnu-objdump 反汇编 vmlinux，你发现了什么？ </h4>
+<p><code>Makefile</code>中的规则：</p>
+<pre data-role="codeBlock" data-info="makefile" class="language-makefile makefile"><code>  <span class="token variable">$</span><span class="token punctuation">(</span>OBJDUMP<span class="token punctuation">)</span> -S vmlinux &gt; vmlinux.asm
+</code></pre><p>将<code>vmlinux</code>反汇编成了<code>vmlinux.asm</code>文件。通过查看<code>vmlinux.asm</code>，可以发现以下要点：</p>
+<ol>
+<li>文件中包含了汇编代码和C代码混合的形式，C代码被编译成了对应的汇编指令，包括pc和inst。例如：</li>
+</ol>
+<pre data-role="codeBlock" data-info="assembly" class="language-assembly assembly"><code>  uint64_t len = 0;                        &lt;--- C代码
+  80200080:	00000613          	li	a2,0   &lt;--- 对应的汇编代码
+</code></pre><ol start="2">
+<li>在源码中写的伪指令会被转换为实际的机器指令，例如<code>head.S</code>中:</li>
+</ol>
+<pre data-role="codeBlock" data-info="assembly" class="language-assembly assembly"><code>  call start_kernel # 调用 start_kernel 函数                  &lt;--- 伪指令(call)
+  80200010:	038000ef          	jal	80200048 &lt;start_kernel&gt;  &lt;--- 实际的机器指令
+</code></pre><ol start="3">
+<li>可以看见函数参数传递的细节，比如<code>puts</code>函数在调用<code>sbi_ecall</code>时，参数是如何传递到寄存器中的：</li>
+</ol>
+<pre data-role="codeBlock" data-info="assembly" class="language-assembly assembly"><code>  // Call SBI ecall to write string
+  sbi_ecall(0x4442434e, 0, len, (uint64_t)s, 0, 0, 0, 0);   &lt;--- C代码
+  80200098:	00000893          	li	a7,0                    &lt;--- 参数传递到寄存器a7
+  8020009c:	00000813          	li	a6,0
+  802000a0:	00000713          	li	a4,0
+  802000a4:	00000593          	li	a1,0
+  802000a8:	44424537          	lui	a0,0x44424
+  802000ac:	34e50513          	addi	a0,a0,846 # 4442434e &lt;_skernel-0x3bddbcb2&gt;
+  802000b0:	104000ef          	jal	802001b4 &lt;sbi_ecall&gt;    &lt;--- 传递参数后调用函数
+</code></pre><ol start="4">
+<li>每个函数的开头都会建立栈帧，保存返回地址和旧的栈指针，函数结束时恢复栈帧并返回。例如<code>puts</code>函数：</li>
+</ol>
+<pre data-role="codeBlock" data-info="assembly" class="language-assembly assembly"><code>  80200074:	ff010113          	addi	sp,sp,-16     &lt;--- 建立栈帧
+  80200078:	00113423          	sd	ra,8(sp)        &lt;--- 保存返回地址
+  ...
+  802000b4:	00813083          	ld	ra,8(sp)        &lt;--- 恢复返回地址
+</code></pre><h4 id="3-编译的过程是什么">3. 编译的过程是什么 </h4>
+<ol>
+<li>
+<p>预处理：处理源代码中的预处理指令，如<code>#include</code>和<code>#define</code>，生成纯C代码。</p>
+</li>
+<li>
+<p>编译：将预处理后的C代码编译成汇编代码。</p>
+</li>
+<li>
+<p>汇编：将汇编代码转换为机器码，生成目标文件（<code>.o</code>文件）。</p>
+</li>
+<li>
+<p>链接：将多个目标文件和库文件链接在一起，生成最终的可执行文件（<code>vmlinux</code>）。</p>
+</li>
+</ol>
+<h4 id="4-编译之后通过-systemmap-查看-vmlinuxlds-中自定义符号的值比较它们的地址是否符合你的预期">4. 编译之后，通过 <code>System.map</code> 查看 <code>vmlinux.lds</code> 中自定义符号的值，比较它们的地址是否符合你的预期。 </h4>
+<p>查看<code>System.map</code>文件可以发现，<code>_skernel</code>的值为0x80200000，符合<code>vmlinux.lds</code>中定义的内核起始地址<code>BASE_ADDR = 0x80200000;</code>。此外，<code>_etext</code>、<code>_edata</code>和<code>_ebss</code>的地址依次递增，分别对应<code>.text</code>、<code>.data</code>和<code>.bss</code>段的结束地址，符合预期。</p>
+<h4 id="5-在你的第一条指令处添加断点观察你的程序开始执行时的特权态是多少中断的开启情况是怎么样的">5. 在你的第一条指令处添加断点，观察你的程序开始执行时的特权态是多少，中断的开启情况是怎么样的？ </h4>
+<p>在<code>head.S</code>开头插入指令<code>csrr a0, mstatus</code>，调试时发现程序卡死，这是因为OpenSBI启动后会将CPU切换到S-mode，而<code>csrr</code>指令只能在M-mode下执行，导致非法指令异常。通过这种方式可以确认内核启动时的特权态为S-mode。<br>
+通过查看<code>mstatus</code>和<code>sstatus</code>寄存器的值也可以确定：</p>
+<pre data-role="codeBlock" data-info="shell" class="language-shell shell"><code><span class="token punctuation">(</span>gdb<span class="token punctuation">)</span> p/x <span class="token variable">$mstatus</span>
+<span class="token variable">$1</span> <span class="token operator">=</span> 0x8000000a00006900
+<span class="token punctuation">(</span>gdb<span class="token punctuation">)</span> p/x <span class="token variable">$sstatus</span>
+<span class="token variable">$2</span> <span class="token operator">=</span> 0x8000000200006100
+</code></pre><p><code>sstatus</code>的SSP位（二进制展开后第8位）为1，表示程序在执行第一条指令前的特权态为S-mode。SIE位为0，表示中断在此时是关闭的状态。</p>
+<h4 id="6-在你的第一条指令处添加断点观察内存中-text-data-bss-段的内容是怎样的">6. 在你的第一条指令处添加断点，观察内存中 <code>.text</code>、<code>.data</code>、<code>.bss</code> 段的内容是怎样的？ </h4>
+<ol>
+<li><code>.text</code>段：使用命令<code>x/10i _stext</code>得到输出：</li>
+</ol>
+<pre data-role="codeBlock" data-info="assembly" class="language-assembly assembly"><code>(gdb) x/10i _stext
+0x80200000 &lt;_stext&gt;: csrr a0,mstatus
+0x80200004 &lt;_stext+4&gt;: auipc sp,0x2
+0x80200008 &lt;_stext+8&gt;: ld sp,4(sp)
+0x8020000c &lt;_stext+12&gt;: lui t0,0x1
+0x80200010 &lt;_stext+16&gt;: add sp,sp,t0
+0x80200014 &lt;_stext+20&gt;: jal 0x8020004c &lt;start_kernel&gt;
+0x80200018 &lt;hang&gt;: j 0x80200018 &lt;hang&gt;
+0x8020001c &lt;ecall_test&gt;: addi sp,sp,-16
+0x80200020 &lt;ecall_test+4&gt;: sd ra,8(sp)
+0x80200024 &lt;ecall_test+8&gt;: li a7,0
+</code></pre><p>可以看到<code>.text</code>段中存放的是程序的指令代码。</p>
+<ol start="2">
+<li><code>.data</code>段：使用命令<code>x/10x &amp;_sdata</code>得到输出：</li>
+</ol>
+<pre data-role="codeBlock" data-info="assembly" class="language-assembly assembly"><code>(gdb) x/10gx &amp;_sdata
+0x80202000:     0x0000000000000000      0x0000000080203000
+0x80202010:     0xffffffffffffffff      0x0000000000000000
+0x80202020:     0x0000000000000000      0x0000000000000000
+0x80202030:     0x0000000000000000      0x0000000000000000
+0x80202040:     0x0000000000000000      0x0000000000000000
+</code></pre><p>可以看到<code>.data</code>段中存放的是已初始化的全局变量和静态变量。</p>
+<ol start="3">
+<li><code>.bss</code>段：使用命令<code>x/10gx &amp;_sbss</code>得到输出：</li>
+</ol>
+<pre data-role="codeBlock" data-info="assembly" class="language-assembly assembly"><code>(gdb) x/10gx &amp;_sbss
+0x80203000:     0x0000000000000000      0x0000000000000000
+0x80203010:     0x0000000000000000      0x0000000000000000
+0x80203020:     0x0000000000000000      0x0000000000000000
+0x80203030:     0x0000000000000000      0x0000000000000000
+0x80203040:     0x0000000000000000      0x0000000000000000
+</code></pre><p>可以看到<code>.bss</code>段中的数据全为0，这是因为BSS段在程序运行前会被清零，用于存放未初始化的全局变量。</p>
+<h4 id="7-观察-vmlinuxasm-中-sbi_ecall-编译得到的汇编代码这段代码是如何实现正确地将参数-arg0-5-放置在寄存器-a0-5-中的">7. 观察 <code>vmlinux.asm</code> 中 <code>sbi_ecall</code> 编译得到的汇编代码。这段代码是如何实现正确地将参数 <code>arg[0-5]</code> 放置在寄存器 <code>a[0-5]</code> 中的？ </h4>
+<p>首先将函数传入的参数存放在临时寄存器中：</p>
+<pre data-role="codeBlock" data-info="assembly" class="language-assembly assembly"><code>802001c0:	00050e13          	mv	t3,a0
+802001c4:	00058313          	mv	t1,a1
+802001c8:	00060e93          	mv	t4,a2
+802001cc:	00068f13          	mv	t5,a3
+802001d0:	00070f93          	mv	t6,a4
+802001d4:	00078293          	mv	t0,a5
+802001d8:	00080393          	mv	t2,a6
+</code></pre><p>然后将临时寄存器中的值按照SBI的规范放置到对应的a寄存器中：</p>
+<pre data-role="codeBlock" data-info="assembly" class="language-assembly assembly"><code>802001dc:	00088413          	mv	s0,a7
+802001e0:	000e0893          	mv	a7,t3 # t3中存放着arg0(eid)
+802001e4:	00030813          	mv	a6,t1 # t1中存放着arg1(fid)
+802001e8:	000e8513          	mv	a0,t4
+802001ec:	000f0593          	mv	a1,t5
+802001f0:	000f8613          	mv	a2,t6
+802001f4:	00028693          	mv	a3,t0
+802001f8:	00038713          	mv	a4,t2
+802001fc:	00040793          	mv	a5,s0
+</code></pre><p>这样可以避免C函数参数寄存器与SBI调用约定之间的冲突，确保参数正确传递。</p>
+<h4 id="8-尝试从汇编代码中给-c-函数-start_kernel-传递参数">8. 尝试从汇编代码中给 C 函数 <code>start_kernel</code> 传递参数。 </h4>
+<p>将<code>main.c</code>中的<code>start_kernel</code>函数修改为接受一个整数参数：</p>
+<pre data-role="codeBlock" data-info="c" class="language-c c"><code><span class="token keyword keyword-void">void</span> <span class="token function">start_kernel</span><span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> arg<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">puti</span><span class="token punctuation">(</span>arg<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token function">ecall_test</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><p>然后在<code>head.S</code>中调用<code>start_kernel</code>时传递参数：</p>
+<pre data-role="codeBlock" data-info="assembly" class="language-assembly assembly"><code>  li a0, 913       # 传递参数 arg = 913用于测试思考题8
+  call start_kernel # 调用 start_kernel 函数
+</code></pre><p>重新编译并运行内核，观察输出：<br>
+<img src="./images/q8.png" alt="start_kernel output"></p>
+<h4 id="9-了解-c-语言中有宿主环境hosted和自立环境freestanding的概念我们的内核运行在哪种环境下">9. 了解 C 语言中“有宿主环境”（hosted）和“自立环境”（freestanding）的概念，我们的内核运行在哪种环境下？ </h4>
+<p>有宿主环境指的是程序运行在操作系统之上，比如我们在linux和windows下运行的普通C程序，这些程序可以使用标准库函数如<code>printf</code>、<code>malloc</code>等。<br>
+自立环境指的是程序直接运行在硬件上，没有操作系统的支持，比如嵌入式系统和操作系统内核，这些程序通常不能使用标准库函数。</p>
+<p>我们的内核运行在自立环境下，因为它直接运行在硬件上，没有操作系统的支持。此外<code>Makefile</code>中指定了<code>-ffreestanding</code>选项，表明编译器生成的代码不依赖于宿主环境。</p>
+<h4 id="10-解释为什么rv64中没有idiv指令但是在我们的c代码中可以使用和">10. 解释为什么RV64中没有idiv指令，但是在我们的c代码中可以使用<code>/</code>和<code>%</code> </h4>
+<p><code>Makefile</code>中指定了<code>ISA := rv64ia_zicsr_zifencei</code>，没有包含<code>M</code>扩展，因此编译器不会直接生成<code>/</code>和<code>%</code>操作对应的<code>idiv</code>和<code>irem</code>指令，而是将这些操作转换为调用库函数（如<code>_divdi3</code>）来实现整数除法和取模。<br>
+此外，<code>LDFLAGS := -lgcc...</code>告诉链接器链接GCC的内置库，这些库中包含了实现除法和取模的函数。<br>
+在反汇编文件<code>vmlinux.asm</code>的末尾也可以看见这些库函数：</p>
+<pre data-role="codeBlock" data-info="assembly" class="language-assembly assembly"><code>000000008020026c &lt;__divdi3&gt;:
+#endif
+
+FUNC_BEGIN (__divdi3)
+  bltz  a0, .L10
+    8020026c:	06054063          	bltz	a0,802002cc &lt;__umoddi3+0x10&gt;
+  bltz  a1, .L11
+    80200270:	0605c663          	bltz	a1,802002dc &lt;__umoddi3+0x20&gt;
+</code></pre><h2 id="4-心得体会">4 心得体会 </h2>
+<p>软件实验确实比前几个硬件实验简单一些。这个实验让我更好的理解了操作系统引导过程中的细节，比如栈的初始化和跳转到内核入口点的过程。<br>
+通过编写<code>makefile</code>，我也学会了如何组织和管理多个源文件的编译过程。</p>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
